@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form autocomplete="on">
+        <label for="inome">
+            <p>Nome: 
+            <input type="nome" id="inome" required maxlength="20" autocomplete="name">
+            </p>
+        </label>
+
+        <label for="imedia">
+            <p>Média: 
+            <input type="number" name="media" id="imedia" step="0.1" max="10" required>
+            </p>
+        </label>
+
+        <label for="idata">
+            <p>Data da prova: 
+            <input type="date" name="data" id="idata" value="2023-04-14">
+            </p>
+        </label>
+
+        <label for="ihorario">
+            <p>Horário da prova: 
+            <input type="time" name="horario" id="ihorario">
+            </p>
+        </label>
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+</html>
